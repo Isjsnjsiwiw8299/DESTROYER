@@ -548,16 +548,16 @@ async def spam(e):
             await e.reply(usage, parse_mode=None, link_preview=None)
 
 
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@ydk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@wdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@hdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@sdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@adk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@bdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@cdk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@edk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
-@ddk.on(events.NewMessage(incoming=True, pattern=r"\.raid"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.raihzd"))
+@ydk.on(events.NewMessage(incoming=True, pattern=r"\.ranzid"))
+@wdk.on(events.NewMessage(incoming=True, pattern=r"\.raidjz"))
+@hdk.on(events.NewMessage(incoming=True, pattern=r"\.raindhe"))
+@sdk.on(events.NewMessage(incoming=True, pattern=r"\.raheid"))
+@adk.on(events.NewMessage(incoming=True, pattern=r"\.raueid"))
+@bdk.on(events.NewMessage(incoming=True, pattern=r"\.raiid"))
+@cdk.on(events.NewMessage(incoming=True, pattern=r"\.rabid"))
+@edk.on(events.NewMessage(incoming=True, pattern=r"\.raixd"))
+@ddk.on(events.NewMessage(incoming=True, pattern=r"\.raidsex"))
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
     if e.sender_id in SMEX_USERS:
@@ -724,7 +724,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None)
         end = datetime.now()
         ms = (end - start).microseconds / 1000
-        await event.edit(f"🤖 𝗣𝗼𝗻𝗴!\n`{ms}` 𝗺𝘀\n 𝗦𝗣𝗔𝗠𝗕𝗢𝗧 𝗢𝗡 𝗙𝗜𝗥𝗘 🔥")
+        await event.edit(f"👾𝗣𝗢𝗡𝗚!!\n`{ms}` 𝗺𝘀\n 𝗥𝗘𝗔𝗗𝗬 𝗙𝗢𝗥 𝗠𝗔𝗦𝗦 𝗣𝗥𝗢𝗠𝗢𝗧𝗜𝗢𝗡")
 
 
 @idk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
@@ -739,7 +739,7 @@ async def ping(e):
 @ddk.on(events.NewMessage(incoming=True, pattern=r"\.restart"))
 async def restart(e):
     if e.sender_id in SMEX_USERS:
-        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
+        text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\n𝗧𝗔𝗞𝗜𝗡𝗚 𝗥𝗘𝗦𝗧 𝗧𝗢 𝗗𝗢 𝗣𝗥𝗢𝗠𝗢𝗧𝗜𝗢𝗡"
         await e.reply(text, parse_mode=None, link_preview=None)
         try:
             await idk.disconnect()
